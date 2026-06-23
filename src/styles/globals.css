@@ -218,3 +218,36 @@ body { background-color: #ffffff; color: #000000; overflow-x: hidden; }
     75% { transform: rotate(5deg); }
     100% { transform: rotate(0deg); }
 }
+
+/* Mobile-specific adjustments */
+@media (max-width: 768px) {
+  .brutalist-shadow {
+    box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+  }
+  .brutalist-shadow:hover {
+    transform: translate(2px, 2px);
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,1);
+  }
+  .brutalist-shadow:active {
+    transform: translate(6px, 6px);
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,1);
+  }
+
+  .sticky-note {
+    transform: none;
+    padding: 24px;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+  }
+  .sticky-note:nth-child(even) {
+    transform: none;
+  }
+  .sticky-note:hover {
+    transform: scale(1.02) translateY(-5px);
+    box-shadow: 12px 12px 0px 0px rgba(0,0,0,1);
+  }
+
+  .grid-12 {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+}
