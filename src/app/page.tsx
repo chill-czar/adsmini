@@ -211,7 +211,7 @@ export default function HomePage() {
       </section>
 
       {/* 7. CTA: Bold poster */}
-      <section className="min-h-[70vh] md:min-h-[90vh] bg-surface-container-lowest border-b-ink-4 flex flex-col justify-center items-center text-center px-margin-mobile md:px-margin-desktop py-20 md:py-section-gap relative overflow-hidden bg-grid-pattern">
+      <section className="min-h-[70vh] md:min-h-[90vh] bg-surface-container-lowest border-b-ink-4 flex flex-col justify-center items-center text-center px-4 md:px-margin-desktop py-20 md:py-section-gap relative overflow-hidden bg-grid-pattern">
         {/* Large Hand-drawn Megaphone */}
         <div className="absolute inset-0 flex items-center justify-center opacity-5 md:opacity-10 pointer-events-none z-0">
           <Image unoptimized width={1000} height={1000}             alt="Megaphone"
@@ -219,16 +219,16 @@ export default function HomePage() {
             src="https://lh3.googleusercontent.com/aida-public/AB6AXuARkPxU3NNyhCIbbFkQsl8Clz5WMhXlJhspaCAMvvyDnhbuvYNrahVigP-Wdfnp9-9a95jqSzxfGPqMYddJvXa6k5llx9Sjeu5M2OYYX0DcLtgMHwOytEeSDTd6OecBGMRHS-ubT2PLtIapn8xX5qaum7dGyi8rSGEOQJbDN_zOzzRtnDT7GyOVqeHLUstqrIZ-CdHdjePzuAs-AfuAI5rtZHNMTaudlZfDyfP1-sTrn9airL_f3YEMWfnqRcNVhSrYva9ze1gEMZU"
           />
         </div>
-        <div className="bg-tangerine border-ink-4 p-8 md:p-16 lg:p-32 brutalist-shadow relative z-10 w-full max-w-6xl transform rotate-0 md:rotate-[-1deg]">
-          <h2 className="text-[48px] leading-[44px] md:text-[200px] md:leading-[180px] font-black uppercase text-ink mb-8 md:mb-12 drop-shadow-[4px_4px_0_rgba(255,255,255,1)] md:drop-shadow-[8px_8px_0_rgba(255,255,255,1)]">
+        <div className="bg-tangerine border-4 border-ink p-6 md:p-16 lg:p-32 brutalist-shadow relative z-10 w-full max-w-6xl transform rotate-0 md:rotate-[-1deg]">
+          <h2 className="text-[36px] leading-[1.1] sm:text-[48px] md:text-[120px] lg:text-[200px] md:leading-[0.9] font-black uppercase text-ink mb-6 md:mb-12 drop-shadow-[3px_3px_0_rgba(255,255,255,1)] md:drop-shadow-[8px_8px_0_rgba(255,255,255,1)] break-words">
             READY TO GROW?
           </h2>
-          <p className="text-[20px] leading-[24px] md:text-[40px] md:leading-[48px] font-black text-ink mb-8 md:mb-16 bg-surface-container-lowest border-ink-4 p-6 md:p-8 brutalist-shadow mx-auto max-w-4xl transform rotate-0 md:rotate-2">
+          <p className="text-[16px] leading-[1.4] sm:text-[20px] md:text-[32px] lg:text-[40px] md:leading-[1.2] font-black text-ink mb-8 md:mb-16 bg-surface-container-lowest border-4 border-ink p-4 md:p-8 brutalist-shadow mx-auto max-w-4xl transform rotate-0 md:rotate-2">
             Let us talk about what your business needs — more leads, better visibility, the right hires, or all three.
           </p>
           <Link
             href="/contact"
-            className="bg-tangerine text-ink border-4 border-ink px-8 py-4 md:px-12 md:py-6 text-headline-md md:text-display-xl-mobile font-headline-md md:font-display-xl-mobile font-black uppercase brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center gap-3 relative z-10"
+            className="bg-tangerine text-ink border-4 border-ink px-4 py-3 sm:px-6 sm:py-4 md:px-12 md:py-6 text-body-lg sm:text-headline-md md:text-[40px] font-black uppercase brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center justify-center flex-wrap gap-2 md:gap-3 relative z-10 w-full sm:w-auto text-center"
           >
             Schedule a Free Consultation
           </Link>

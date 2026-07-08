@@ -23,11 +23,11 @@ export function Navbar() {
         >
           ADS MINI
         </Link>
-        <div className="hidden md:flex gap-8 items-center bg-surface-container-lowest border-ink-4 px-8 py-4 brutalist-shadow">
-          <Link href="/work" className="text-label-mono font-label-mono uppercase font-black">WORK</Link>
-          <Link href="/services" className="text-label-mono font-label-mono uppercase font-black">SERVICES</Link>
-          <Link href="/about" className="text-label-mono font-label-mono uppercase font-black">AGENCY</Link>
-          <Link href="#" className="text-label-mono font-label-mono uppercase font-black">LABS</Link>
+        <div className="hidden md:flex gap-4 items-center bg-surface-container-lowest border-ink-4 px-8 py-4 brutalist-shadow">
+          <Link href="/work" className="text-label-mono font-label-mono uppercase font-black px-4 py-2 hover:bg-ink hover:text-surface-container-lowest transition-all duration-300">WORK</Link>
+          <Link href="/services" className="text-label-mono font-label-mono uppercase font-black px-4 py-2 hover:bg-ink hover:text-surface-container-lowest transition-all duration-300">SERVICES</Link>
+          <Link href="/about" className="text-label-mono font-label-mono uppercase font-black px-4 py-2 hover:bg-ink hover:text-surface-container-lowest transition-all duration-300">AGENCY</Link>
+          <Link href="#" className="text-label-mono font-label-mono uppercase font-black px-4 py-2 hover:bg-ink hover:text-surface-container-lowest transition-all duration-300">LABS</Link>
         </div>
         <Link
           href="/contact"
@@ -53,28 +53,28 @@ export function Navbar() {
           <div className="flex flex-col gap-4 px-margin-mobile py-8">
             <Link
               href="/work"
-              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block"
+              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block hover:bg-ink hover:text-surface-container-lowest transition-all duration-300"
               onClick={closeMobileMenu}
             >
               WORK
             </Link>
             <Link
               href="/services"
-              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block"
+              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block hover:bg-ink hover:text-surface-container-lowest transition-all duration-300"
               onClick={closeMobileMenu}
             >
               SERVICES
             </Link>
             <Link
               href="/about"
-              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block"
+              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block hover:bg-ink hover:text-surface-container-lowest transition-all duration-300"
               onClick={closeMobileMenu}
             >
               AGENCY
             </Link>
             <Link
               href="#"
-              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block"
+              className="text-label-mono font-label-mono uppercase font-black text-ink py-4 px-6 border-4 border-ink brutalist-shadow block hover:bg-ink hover:text-surface-container-lowest transition-all duration-300"
               onClick={closeMobileMenu}
             >
               LABS
