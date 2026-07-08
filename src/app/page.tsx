@@ -23,10 +23,10 @@ export default function HomePage() {
                 Ads Mini is a full-service digital marketing and recruitment agency. We help businesses grow their online presence and find the right talent all under one roof.
               </p>
               <div className="flex flex-col gap-4 md:gap-6 relative z-20 w-full md:w-auto">
-                <Link href="/services" className="bg-tangerine text-ink border-ink-4 px-8 md:px-12 py-4 md:py-6 text-body-lg md:text-headline-md font-body-lg md:font-headline-md font-black uppercase text-center brutalist-shadow">
+                <Link href="/services" className="bg-tangerine text-ink border-4 border-ink px-8 py-4 text-headline-md font-headline-md font-black uppercase brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center justify-center gap-3">
                   Explore Services
                 </Link>
-                <Link href="/contact" className="bg-surface-container-lowest text-ink border-ink-4 px-8 md:px-12 py-4 md:py-6 text-body-lg md:text-headline-md font-body-lg md:font-headline-md font-black uppercase text-center brutalist-shadow hover:bg-ink hover:text-surface-container-lowest">
+                <Link href="/contact" className="bg-surface-container-lowest text-ink border-4 border-ink px-8 py-4 text-headline-md font-headline-md font-black uppercase brutalist-shadow hover:bg-tangerine transition-all duration-300 inline-flex items-center justify-center gap-3">
                   Talk to Expert
                 </Link>
               </div>
@@ -44,8 +44,8 @@ export default function HomePage() {
         />
         <div className="px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-12 gap-gutter relative z-10">
           <div className="md:col-span-1 flex justify-center md:justify-start">
-            <span className="text-body-md md:text-headline-md font-body-md md:font-headline-md vertical-text hidden md:block tracking-widest text-ink font-black bg-surface-container-lowest border-ink-4 p-4 brutalist-shadow">ISSUE 01 — WHO WE ARE</span>
-            <span className="text-body-md md:text-headline-md font-body-md md:font-headline-md block md:hidden tracking-widest text-ink font-black bg-surface-container-lowest border-ink-4 p-4 brutalist-shadow mb-8">ISSUE 01 — WHO WE ARE</span>
+            <span className="bg-tangerine border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold vertical-text hidden md:block brutalist-shadow">ISSUE 01 — WHO WE ARE</span>
+            <span className="bg-tangerine border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold block md:hidden brutalist-shadow mb-8">ISSUE 01 — WHO WE ARE</span>
           </div>
           <div className="md:col-span-5 relative">
             <div className="bg-surface-container-lowest border-ink-4 p-6 md:p-8 brutalist-shadow h-full flex flex-col justify-between">
@@ -92,8 +92,8 @@ export default function HomePage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
             {/* Service 1 */}
-            <div className="bg-surface-container-lowest border-ink-4 p-6 md:p-8 brutalist-shadow group hover:bg-tangerine transition-colors duration-300">
-              <div className="flex justify-between items-start mb-8 md:mb-12 border-b-ink-4 pb-4">
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow">
+              <div className="flex justify-between items-start mb-8 md:mb-12 border-b-4 border-ink pb-4">
                 <span className="text-[48px] md:text-[80px] leading-none font-black text-ink">01</span>
                 <span className="material-symbols-outlined text-[48px] md:text-[80px] text-ink">campaign</span>
               </div>
@@ -103,8 +103,8 @@ export default function HomePage() {
               </p>
             </div>
             {/* Service 2 */}
-            <div className="bg-ink text-surface-container-lowest border-ink-4 p-6 md:p-8 brutalist-shadow group hover:bg-tangerine hover:text-ink transition-colors duration-300 mt-0 md:mt-12">
-              <div className="flex justify-between items-start mb-8 md:mb-12 border-b-4 border-surface-container-lowest group-hover:border-ink pb-4">
+            <div className="bg-ink text-surface-container-lowest border-4 border-ink p-8 brutalist-shadow mt-0 md:mt-12">
+              <div className="flex justify-between items-start mb-8 md:mb-12 border-b-4 border-surface-container-lowest pb-4">
                 <span className="text-[48px] md:text-[80px] leading-none font-black">02</span>
                 <span className="material-symbols-outlined text-[48px] md:text-[80px]">group_add</span>
               </div>
@@ -114,8 +114,8 @@ export default function HomePage() {
               </p>
             </div>
             {/* Service 3 */}
-            <div className="bg-surface-container-lowest border-ink-4 p-6 md:p-8 brutalist-shadow group hover:bg-tangerine transition-colors duration-300 mt-0 md:mt-24">
-              <div className="flex justify-between items-start mb-8 md:mb-12 border-b-ink-4 pb-4">
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow mt-0 md:mt-24">
+              <div className="flex justify-between items-start mb-8 md:mb-12 border-b-4 border-ink pb-4">
                 <span className="text-[48px] md:text-[80px] leading-none font-black text-ink">03</span>
                 <span className="material-symbols-outlined text-[48px] md:text-[80px] text-ink">trending_up</span>
               </div>
@@ -140,16 +140,16 @@ export default function HomePage() {
             <h2 className="text-[36px] leading-[36px] md:text-[150px] md:leading-[130px] font-black uppercase text-ink bg-surface-container-lowest border-ink-4 p-4 md:p-8 inline-block brutalist-shadow">WHY ADS MINI?</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 relative">
-            <div className="sticky-note">
-              <h3 className="text-[24px] leading-[28px] md:text-[40px] md:leading-[44px] font-black uppercase mb-6 md:mb-8 border-b-ink-4 pb-4">Results Over Reports</h3>
+            <div className="bg-tangerine border-4 border-ink p-8 brutalist-shadow transform rotate-[-2deg]">
+              <h3 className="text-[24px] leading-[28px] md:text-[40px] md:leading-[44px] font-black uppercase mb-6 md:mb-8 border-b-4 border-ink pb-4">Results Over Reports</h3>
               <p className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-bold">We do not just send you dashboards and disappear. Every strategy we build is tied to measurable outcomes — traffic, leads, conversions, revenue, and hires. If the number does not move, we move differently.</p>
             </div>
-            <div className="sticky-note">
-              <h3 className="text-[24px] leading-[28px] md:text-[40px] md:leading-[44px] font-black uppercase mb-6 md:mb-8 border-b-ink-4 pb-4">Specialists, Not Generalists</h3>
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow transform rotate-[3deg]">
+              <h3 className="text-[24px] leading-[28px] md:text-[40px] md:leading-[44px] font-black uppercase mb-6 md:mb-8 border-b-4 border-ink pb-4">Specialists, Not Generalists</h3>
               <p className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-bold">Each client gets a dedicated team with real domain expertise. No junior staff learning on your budget. No outsourced execution. Just people who know what they are doing and are accountable for what they deliver.</p>
             </div>
-            <div className="sticky-note">
-              <h3 className="text-[24px] leading-[28px] md:text-[40px] md:leading-[44px] font-black uppercase mb-6 md:mb-8 border-b-ink-4 pb-4">One Partner, Two Disciplines</h3>
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow transform rotate-[-2deg]">
+              <h3 className="text-[24px] leading-[28px] md:text-[40px] md:leading-[44px] font-black uppercase mb-6 md:mb-8 border-b-4 border-ink pb-4">One Partner, Two Disciplines</h3>
               <p className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-bold">Marketing and recruitment handled by one agency means less back and forth, better strategic alignment, and stronger long-term results. You talk to one team. They take care of both sides.</p>
             </div>
           </div>
@@ -168,17 +168,17 @@ export default function HomePage() {
             <h2 className="text-[20px] md:text-[40px] font-black uppercase tracking-widest text-center">INDUSTRIES WE SERVE</h2>
           </div>
           <div className="flex flex-wrap justify-center gap-3 md:gap-12 max-w-7xl mx-auto">
-            <span className="text-[18px] md:text-[60px] font-black uppercase bg-surface-container-lowest border-ink-4 px-4 md:px-8 py-2 md:py-4 brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-colors cursor-crosshair transform rotate-0 md:rotate-[-2deg]">Technology, SaaS &amp; IT</span>
-            <span className="text-[16px] md:text-[48px] font-black italic bg-ink text-surface-container-lowest border-ink-4 px-4 md:px-8 py-2 md:py-4 brutalist-shadow hover:bg-surface-container-lowest hover:text-ink transition-colors cursor-crosshair transform rotate-0 md:rotate-3">E-Commerce &amp; D2C</span>
-            <span className="text-[20px] md:text-[80px] font-black uppercase px-4 md:px-8 py-2 md:py-4 bg-surface-container-lowest border-ink-4 brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-colors cursor-crosshair transform rotate-0 md:rotate-[-1deg]">Healthcare &amp; Pharma</span>
-            <span className="text-[16px] md:text-[50px] font-black bg-surface-container-lowest border-ink-4 rounded-full px-6 md:px-12 py-2 md:py-4 brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-colors cursor-crosshair transform rotate-0 md:rotate-6">BFSI</span>
-            <span className="text-[18px] md:text-[60px] font-black underline decoration-4 md:decoration-8 decoration-ink bg-surface-container-lowest border-ink-4 px-4 md:px-8 py-2 md:py-4 brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-3deg]">Manufacturing &amp; Logistics</span>
-            <span className="text-[16px] md:text-[50px] font-black px-4 md:px-8 py-2 md:py-4 bg-ink text-surface-container-lowest border-ink-4 brutalist-shadow hover:bg-surface-container-lowest hover:text-ink transition-colors cursor-crosshair transform rotate-0 md:rotate-2">Real Estate</span>
-            <span className="text-[20px] md:text-[70px] font-black px-4 md:px-8 py-2 md:py-4 bg-surface-container-lowest border-ink-4 brutalist-shadow text-outline hover:text-ink transition-colors cursor-crosshair transform rotate-0 md:rotate-[-4deg]">Education &amp; EdTech</span>
-            <span className="text-[16px] md:text-[48px] font-black uppercase tracking-widest px-4 md:px-8 py-2 md:py-4 bg-surface-container-lowest border-ink-4 brutalist-shadow hover:bg-ink hover:text-surface-container-lowest cursor-crosshair transform rotate-0 md:rotate-5">Hospitality &amp; Tourism</span>
-            <span className="text-[18px] md:text-[56px] font-black italic px-4 md:px-8 py-2 md:py-4 bg-surface-container-lowest border-ink-4 brutalist-shadow hover:line-through transition-all cursor-crosshair transform rotate-0 md:rotate-[-2deg]">Government Enterprise</span>
-            <span className="text-[16px] md:text-[50px] font-black bg-ink text-surface-container-lowest border-ink-4 px-4 md:px-8 py-2 md:py-4 brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-3">FMCG &amp; Consumer Goods</span>
-            <span className="text-[24px] md:text-[90px] font-black px-4 md:px-8 py-2 md:py-4 bg-surface-container-lowest border-ink-4 brutalist-shadow hover:scale-110 transition-transform cursor-crosshair transform rotate-0 md:rotate-[-1deg]">Media &amp; Communications</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-2deg]">Technology, SaaS &amp; IT</span>
+            <span className="bg-ink text-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-3">E-Commerce &amp; D2C</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-1deg]">Healthcare &amp; Pharma</span>
+            <span className="bg-surface-container-lowest border-2 border-ink rounded-full px-6 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-6">BFSI</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-3deg] underline decoration-2 decoration-tangerine">Manufacturing &amp; Logistics</span>
+            <span className="bg-ink text-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-2">Real Estate</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-4deg]">Education &amp; EdTech</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-5">Hospitality &amp; Tourism</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-2deg]">Government Enterprise</span>
+            <span className="bg-ink text-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-3">FMCG &amp; Consumer Goods</span>
+            <span className="bg-surface-container-lowest border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold brutalist-shadow cursor-crosshair transform rotate-0 md:rotate-[-1deg]">Media &amp; Communications</span>
           </div>
         </div>
       </section>
@@ -191,21 +191,21 @@ export default function HomePage() {
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuARkPxU3NNyhCIbbFkQsl8Clz5WMhXlJhspaCAMvvyDnhbuvYNrahVigP-Wdfnp9-9a95jqSzxfGPqMYddJvXa6k5llx9Sjeu5M2OYYX0DcLtgMHwOytEeSDTd6OecBGMRHS-ubT2PLtIapn8xX5qaum7dGyi8rSGEOQJbDN_zOzzRtnDT7GyOVqeHLUstqrIZ-CdHdjePzuAs-AfuAI5rtZHNMTaudlZfDyfP1-sTrn9airL_f3YEMWfnqRcNVhSrYva9ze1gEMZU"
         />
         <div className="px-margin-mobile md:px-margin-desktop grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12 relative z-10">
-          <div className="flex flex-col items-center justify-center text-center bg-surface-container-lowest text-ink border-ink-4 p-6 md:p-12 brutalist-shadow transform rotate-0 md:rotate-[-2deg]">
+          <div className="flex flex-col items-center justify-center text-center bg-surface-container-lowest text-ink border-4 border-ink p-8 brutalist-shadow transform rotate-0 md:rotate-[-2deg]">
             <span className="text-[64px] md:text-[120px] leading-none font-black text-tangerine drop-shadow-[3px_3px_0_rgba(0,0,0,1)] md:drop-shadow-[6px_6px_0_rgba(0,0,0,1)] mb-2 md:mb-4">6+</span>
-            <span className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-black uppercase tracking-widest border-t-ink-4 pt-4 w-full">Years of Experience</span>
+            <span className="text-headline-md font-headline-md font-black uppercase tracking-widest border-t-4 border-ink pt-4 w-full">Years of Experience</span>
           </div>
-          <div className="flex flex-col items-center justify-center text-center bg-tangerine text-ink border-ink-4 p-6 md:p-12 brutalist-shadow transform rotate-0 md:rotate-3 mt-0 md:mt-12">
+          <div className="flex flex-col items-center justify-center text-center bg-tangerine text-ink border-4 border-ink p-8 brutalist-shadow transform rotate-0 md:rotate-3 mt-0 md:mt-12">
             <span className="text-[64px] md:text-[120px] leading-none font-black text-surface-container-lowest drop-shadow-[3px_3px_0_rgba(0,0,0,1)] md:drop-shadow-[6px_6px_0_rgba(0,0,0,1)] mb-2 md:mb-4">500+</span>
-            <span className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-black uppercase tracking-widest border-t-ink-4 pt-4 w-full">Clients Served</span>
+            <span className="text-headline-md font-headline-md font-black uppercase tracking-widest border-t-4 border-ink pt-4 w-full">Clients Served</span>
           </div>
-          <div className="flex flex-col items-center justify-center text-center bg-surface-container-lowest text-ink border-ink-4 p-6 md:p-12 brutalist-shadow transform rotate-0 md:rotate-[-1deg] mt-0 md:mt-24">
+          <div className="flex flex-col items-center justify-center text-center bg-surface-container-lowest text-ink border-4 border-ink p-8 brutalist-shadow transform rotate-0 md:rotate-[-1deg] mt-0 md:mt-24">
             <span className="text-[64px] md:text-[120px] leading-none font-black text-tangerine drop-shadow-[3px_3px_0_rgba(0,0,0,1)] md:drop-shadow-[6px_6px_0_rgba(0,0,0,1)] mb-2 md:mb-4">100+</span>
-            <span className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-black uppercase tracking-widest border-t-ink-4 pt-4 w-full">Campaigns/Month</span>
+            <span className="text-headline-md font-headline-md font-black uppercase tracking-widest border-t-4 border-ink pt-4 w-full">Campaigns/Month</span>
           </div>
-          <div className="flex flex-col items-center justify-center text-center bg-tangerine text-ink border-ink-4 p-6 md:p-12 brutalist-shadow transform rotate-0 md:rotate-2 mt-0 md:mt-36">
+          <div className="flex flex-col items-center justify-center text-center bg-tangerine text-ink border-4 border-ink p-8 brutalist-shadow transform rotate-0 md:rotate-2 mt-0 md:mt-36">
             <span className="text-[40px] md:text-[80px] leading-[36px] md:leading-[70px] font-black text-surface-container-lowest drop-shadow-[3px_3px_0_rgba(0,0,0,1)] md:drop-shadow-[6px_6px_0_rgba(0,0,0,1)] mb-2 md:mb-4 flex items-center h-[80px] md:h-[120px]">MULTI<br />COUNTRY</span>
-            <span className="text-body-md md:text-headline-md font-body-md md:font-headline-md font-black uppercase tracking-widest border-t-ink-4 pt-4 w-full">Client Base</span>
+            <span className="text-headline-md font-headline-md font-black uppercase tracking-widest border-t-4 border-ink pt-4 w-full">Client Base</span>
           </div>
         </div>
       </section>
@@ -228,7 +228,7 @@ export default function HomePage() {
           </p>
           <Link
             href="/contact"
-            className="inline-block bg-ink text-surface-container-lowest border-ink-4 px-8 md:px-16 py-6 md:py-8 text-[20px] md:text-[40px] font-black uppercase hover:bg-surface-container-lowest hover:text-ink transition-all duration-300 relative z-10 brutalist-shadow transform hover:scale-105 rotate-0 md:rotate-[-2deg]"
+            className="bg-tangerine text-ink border-4 border-ink px-8 py-4 md:px-12 md:py-6 text-headline-md md:text-display-xl-mobile font-headline-md md:font-display-xl-mobile font-black uppercase brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center gap-3 relative z-10"
           >
             Schedule a Free Consultation
           </Link>

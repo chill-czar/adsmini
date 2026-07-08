@@ -53,21 +53,21 @@ export default function RecruitmentPage() {
                 End-to-End <br />Recruitment
               </h2>
               <ul className="space-y-4 md:space-y-6">
-                <li className="flex items-start gap-3 md:gap-4 border-b border-paper/20 pb-4">
+                <li className="border-t-2 border-paper pt-6 flex items-start gap-4">
                   <span className="font-display-xl text-[32px] md:text-[40px] text-tangerine leading-none mt-1">01</span>
                   <div>
                     <h3 className="font-headline-md text-[20px] md:text-[24px] uppercase mb-2">Requirement Analysis</h3>
                     <p className="font-body-md text-paper/70">Deep dive into your exact needs and cultural fit.</p>
                   </div>
                 </li>
-                <li className="flex items-start gap-3 md:gap-4 border-b border-paper/20 pb-4">
+                <li className="border-t-2 border-paper pt-6 flex items-start gap-4">
                   <span className="font-display-xl text-[32px] md:text-[40px] text-tangerine leading-none mt-1">02</span>
                   <div>
                     <h3 className="font-headline-md text-[20px] md:text-[24px] uppercase mb-2">Sourcing Strategy</h3>
                     <p className="font-body-md text-paper/70">Multi-channel approach to find hidden gems.</p>
                   </div>
                 </li>
-                <li className="flex items-start gap-3 md:gap-4 border-b border-paper/20 pb-4">
+                <li className="border-t-2 border-paper pt-6 flex items-start gap-4">
                   <span className="font-display-xl text-[32px] md:text-[40px] text-tangerine leading-none mt-1">03</span>
                   <div>
                     <h3 className="font-headline-md text-[20px] md:text-[24px] uppercase mb-2">Screening &amp; Assessment</h3>
@@ -92,21 +92,18 @@ export default function RecruitmentPage() {
             </h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 relative z-10">
-            <div className="bg-paper border-ink-2 p-6 md:p-8 hover:-translate-y-2 hover:-translate-x-2 transition-transform relative group">
-              <div className="absolute inset-0 bg-ink translate-y-2 translate-x-2 -z-10"></div>
-              <span className="font-label-mono text-label-mono bg-ink text-tangerine px-3 py-1 mb-4 md:mb-6 inline-block">STEP ONE</span>
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow relative group mt-0 md:mt-0">
+              <span className="bg-tangerine border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold mb-4 md:mb-6 inline-block">STEP ONE</span>
               <h3 className="font-headline-md text-headline-md mb-3 md:mb-4 uppercase">The Brief</h3>
               <p className="font-body-md">We sit down to understand exactly what you are looking for, beyond just the bullet points.</p>
             </div>
-            <div className="bg-paper border-ink-2 p-6 md:p-8 hover:-translate-y-2 hover:-translate-x-2 transition-transform relative group mt-0 md:mt-16">
-              <div className="absolute inset-0 bg-ink translate-y-2 translate-x-2 -z-10"></div>
-              <span className="font-label-mono text-label-mono bg-ink text-tangerine px-3 py-1 mb-4 md:mb-6 inline-block">STEP TWO</span>
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow relative group mt-0 md:mt-16">
+              <span className="bg-tangerine border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold mb-4 md:mb-6 inline-block">STEP TWO</span>
               <h3 className="font-headline-md text-headline-md mb-3 md:mb-4 uppercase">The Hunt</h3>
               <p className="font-body-md">Our team taps into our networks, databases, and creative channels to find the right candidates.</p>
             </div>
-            <div className="bg-paper border-ink-2 p-6 md:p-8 hover:-translate-y-2 hover:-translate-x-2 transition-transform relative group mt-0 md:mt-32">
-              <div className="absolute inset-0 bg-ink translate-y-2 translate-x-2 -z-10"></div>
-              <span className="font-label-mono text-label-mono bg-ink text-tangerine px-3 py-1 mb-4 md:mb-6 inline-block">STEP THREE</span>
+            <div className="bg-surface-container-lowest border-4 border-ink p-8 brutalist-shadow relative group mt-0 md:mt-32">
+              <span className="bg-tangerine border-2 border-ink px-4 py-2 text-label-mono font-label-mono uppercase font-bold mb-4 md:mb-6 inline-block">STEP THREE</span>
               <h3 className="font-headline-md text-headline-md mb-3 md:mb-4 uppercase">The Match</h3>
               <p className="font-body-md">We present a curated shortlist, handle the interviews, and help you close the deal.</p>
             </div>
@@ -126,7 +123,7 @@ export default function RecruitmentPage() {
           </h2>
           <Link
             href="/contact"
-            className="inline-block bg-tangerine border-ink-2 px-8 md:px-12 py-4 md:py-6 font-headline-md text-[18px] md:text-[20px] font-bold uppercase hover:bg-ink hover:text-paper transition-all"
+            className="bg-tangerine text-ink border-4 border-ink px-8 py-4 text-headline-md font-headline-md font-black uppercase brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center gap-3"
           >
             Submit a Hiring Brief
           </Link>

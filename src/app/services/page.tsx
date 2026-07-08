@@ -35,7 +35,7 @@ export default function ServicesPage() {
           <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center mb-20 md:mb-[200px]">
             <div className="md:col-span-5 md:col-start-1 relative">
               <div className="absolute inset-0 bg-tangerine transform -translate-x-2 md:-translate-x-4 translate-y-2 md:translate-y-4 border-2 border-ink"></div>
-              <div className="bg-paper border-2 border-ink p-6 md:p-12 relative z-10 h-full flex flex-col justify-center transition-transform hover:-translate-y-2 hover:translate-x-2 duration-300">
+              <div className="bg-surface-container-lowest border-4 border-ink p-8 relative z-10 h-full flex flex-col justify-center brutalist-shadow">
                 <span className="text-label-mono font-label-mono uppercase tracking-widest text-tangerine mb-4 block">01 / The Foundation</span>
                 <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-ink mb-4 md:mb-6 uppercase">Search &amp; Visibility</h2>
                 <ul className="text-body-md md:text-body-lg font-body-md md:font-body-lg space-y-3 md:space-y-4">
@@ -55,7 +55,7 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="md:col-span-5 md:col-start-7 mt-8 md:mt-0">
-              <Image unoptimized width={1000} height={1000}                 className="w-full h-auto border-2 border-ink aspect-[4/5] object-cover filter grayscale hover:grayscale-0 transition-all duration-500"
+              <Image unoptimized width={1000} height={1000}                 className="w-full h-auto border-2 border-ink aspect-[4/5] object-cover filter grayscale"
                 src="https://www.gstatic.com/labs-code/stitch/stitch-placeholder-300x300.svg"
                 alt="Search visibility illustration"
               />
@@ -79,7 +79,7 @@ export default function ServicesPage() {
                 </div>
                 {/* Content Row */}
                 <div className="grid grid-cols-1 md:grid-cols-3 divide-y-2 md:divide-y-0 md:divide-x-2 divide-ink">
-                  <div className="p-6 md:p-8 hover:bg-tangerine transition-colors duration-300">
+                  <div className="bg-surface-container-lowest border-2 border-ink p-6">
                     <h4 className="md:hidden font-bold uppercase mb-3 text-body-md">Technical</h4>
                     <ul className="space-y-3 md:space-y-4 text-body-md font-body-md">
                       <li>Site Architecture</li>
@@ -88,7 +88,7 @@ export default function ServicesPage() {
                       <li>Schema Markup</li>
                     </ul>
                   </div>
-                  <div className="p-6 md:p-8 hover:bg-tangerine transition-colors duration-300">
+                  <div className="bg-surface-container-lowest border-2 border-ink p-6">
                     <h4 className="md:hidden font-bold uppercase mb-3 text-body-md">On-Page</h4>
                     <ul className="space-y-3 md:space-y-4 text-body-md font-body-md">
                       <li>Keyword Strategy</li>
@@ -97,7 +97,7 @@ export default function ServicesPage() {
                       <li>Metadata</li>
                     </ul>
                   </div>
-                  <div className="p-6 md:p-8 hover:bg-tangerine transition-colors duration-300">
+                  <div className="bg-surface-container-lowest border-2 border-ink p-6">
                     <h4 className="md:hidden font-bold uppercase mb-3 text-body-md">Off-Page</h4>
                     <ul className="space-y-3 md:space-y-4 text-body-md font-body-md">
                       <li>Link Building</li>
@@ -112,14 +112,14 @@ export default function ServicesPage() {
           </div>
 
           {/* Paid Media & Social Media Split */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-2 border-ink mb-20 md:mb-[200px] overflow-hidden group">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-4 border-ink mb-20 md:mb-[200px] overflow-hidden group">
             {/* Paid Media */}
-            <div className="bg-paper p-8 md:p-12 lg:p-24 border-b-2 md:border-b-0 md:border-r-2 border-ink relative overflow-hidden transition-colors duration-500 hover:bg-ink hover:text-surface-container-lowest">
-              <span className="text-label-mono font-label-mono uppercase tracking-widest text-tangerine mb-4 block group-hover:text-tangerine">02 / Acceleration</span>
+            <div className="bg-surface-container-lowest p-8 md:p-12 lg:p-24 border-b-4 md:border-b-0 md:border-r-4 border-ink relative overflow-hidden group">
+              <span className="text-label-mono font-label-mono uppercase tracking-widest text-tangerine mb-4 block">02 / Acceleration</span>
               <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg mb-6 md:mb-8 uppercase">Paid Media</h2>
               <p className="text-body-md md:text-body-lg font-body-md md:font-body-lg mb-6 md:mb-8 opacity-80">SEM &amp; PPC campaigns designed for maximum ROAS. We don't just buy clicks; we buy customers.</p>
-              <button className="bg-transparent border-2 border-current text-current font-label-mono text-label-mono uppercase py-3 md:py-4 px-6 md:px-8 hover:bg-tangerine hover:text-ink hover:border-tangerine transition-all duration-300 flex items-center gap-2">
-                View Case Studies <span className="material-symbols-outlined">north_east</span>
+              <button className="bg-transparent text-ink border-2 border-ink px-6 py-3 text-body-lg font-body-lg font-bold uppercase hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center gap-2">
+                View Case Studies <span className="material-symbols-outlined text-[24px]">north_east</span>
               </button>
               <Image unoptimized width={1000} height={1000}                 alt="Scribble doodle"
                 className="absolute -right-10 -bottom-10 w-32 md:w-48 h-32 md:h-48 opacity-20 wobble-animation object-contain"
@@ -127,12 +127,12 @@ export default function ServicesPage() {
               />
             </div>
             {/* Social Media */}
-            <div className="bg-tangerine p-8 md:p-12 lg:p-24 relative overflow-hidden transition-colors duration-500 hover:bg-ink hover:text-surface-container-lowest">
-              <span className="text-label-mono font-label-mono uppercase tracking-widest text-ink mb-4 block group-hover:text-tangerine">03 / Community</span>
-              <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-ink mb-6 md:mb-8 uppercase group-hover:text-surface-container-lowest">Social Media</h2>
-              <p className="text-body-md md:text-body-lg font-body-md md:font-body-lg text-ink mb-6 md:mb-8 opacity-80 group-hover:text-surface-container-lowest">SMM that builds brands and drives engagement. Platform-native strategies that resonate.</p>
-              <button className="bg-ink border-2 border-ink text-surface-container-lowest font-label-mono text-label-mono uppercase py-3 md:py-4 px-6 md:px-8 hover:bg-transparent hover:text-ink hover:border-ink transition-all duration-300 group-hover:border-surface-container-lowest group-hover:text-surface-container-lowest group-hover:hover:bg-tangerine group-hover:hover:text-ink group-hover:hover:border-tangerine flex items-center gap-2">
-                Explore SMM <span className="material-symbols-outlined">north_east</span>
+            <div className="bg-tangerine p-8 md:p-12 lg:p-24 border-4 border-ink relative overflow-hidden group">
+              <span className="text-label-mono font-label-mono uppercase tracking-widest text-ink mb-4 block">03 / Community</span>
+              <h2 className="text-headline-lg-mobile md:text-headline-lg font-headline-lg-mobile md:font-headline-lg text-ink mb-6 md:mb-8 uppercase">Social Media</h2>
+              <p className="text-body-md md:text-body-lg font-body-md md:font-body-lg text-ink mb-6 md:mb-8 opacity-80">SMM that builds brands and drives engagement. Platform-native strategies that resonate.</p>
+              <button className="bg-ink text-surface-container-lowest border-4 border-ink px-8 py-4 text-headline-md font-headline-md font-black uppercase brutalist-shadow hover:bg-surface-container-lowest hover:text-ink transition-all duration-300 inline-flex items-center gap-3">
+                Explore SMM <span className="material-symbols-outlined text-[32px]">north_east</span>
               </button>
             </div>
           </div>
@@ -146,30 +146,33 @@ export default function ServicesPage() {
               </div>
             </div>
             <div className="md:col-span-6 md:col-start-7 space-y-6 md:space-y-gutter">
-              <div className="border-t-2 border-ink pt-6 md:pt-8 hover:pl-4 md:hover:pl-8 transition-all duration-300 cursor-pointer group">
+              <div className="border-t-2 border-ink pt-6 md:pt-8 cursor-pointer group">
                 <div className="flex justify-between items-end mb-3 md:mb-4">
-                  <h3 className="text-headline-md font-headline-md text-ink uppercase group-hover:text-tangerine transition-colors text-[24px] md:text-[32px]">Performance Mktg</h3>
+                  <h3 className="text-headline-md font-headline-md text-ink uppercase text-[24px] md:text-[32px]">Performance Mktg</h3>
                   <span className="text-label-mono font-label-mono text-ink">04</span>
                 </div>
                 <p className="text-body-md font-body-md text-ink max-w-md">Data-driven, full-funnel optimization.</p>
               </div>
-              <div className="border-t-2 border-ink pt-6 md:pt-8 hover:pl-4 md:hover:pl-8 transition-all duration-300 cursor-pointer group">
+              
+              <div className="border-t-2 border-ink pt-6 md:pt-8 cursor-pointer group">
                 <div className="flex justify-between items-end mb-3 md:mb-4">
-                  <h3 className="text-headline-md font-headline-md text-ink uppercase group-hover:text-tangerine transition-colors text-[24px] md:text-[32px]">Content &amp; Brand</h3>
+                  <h3 className="text-headline-md font-headline-md text-ink uppercase text-[24px] md:text-[32px]">Content &amp; Brand</h3>
                   <span className="text-label-mono font-label-mono text-ink">05</span>
                 </div>
                 <p className="text-body-md font-body-md text-ink max-w-md">Content Marketing &amp; Personal Branding that establishes authority.</p>
               </div>
-              <div className="border-t-2 border-ink pt-6 md:pt-8 hover:pl-4 md:hover:pl-8 transition-all duration-300 cursor-pointer group">
+
+              <div className="border-t-2 border-ink pt-6 md:pt-8 cursor-pointer group">
                 <div className="flex justify-between items-end mb-3 md:mb-4">
-                  <h3 className="text-headline-md font-headline-md text-ink uppercase group-hover:text-tangerine transition-colors text-[24px] md:text-[32px]">AI &amp; Modern Mktg</h3>
+                  <h3 className="text-headline-md font-headline-md text-ink uppercase text-[24px] md:text-[32px]">AI &amp; Modern Mktg</h3>
                   <span className="text-label-mono font-label-mono text-ink">06</span>
                 </div>
                 <p className="text-body-md font-body-md text-ink max-w-md">Leveraging next-gen tools for efficiency and scale.</p>
               </div>
-              <div className="border-t-2 border-ink pt-6 md:pt-8 hover:pl-4 md:hover:pl-8 transition-all duration-300 cursor-pointer group">
+
+              <div className="border-t-2 border-ink pt-6 md:pt-8 cursor-pointer group">
                 <div className="flex justify-between items-end mb-3 md:mb-4">
-                  <h3 className="text-headline-md font-headline-md text-ink uppercase group-hover:text-tangerine transition-colors text-[24px] md:text-[32px]">Analytics &amp; Tech</h3>
+                  <h3 className="text-headline-md font-headline-md text-ink uppercase text-[24px] md:text-[32px]">Analytics &amp; Tech</h3>
                   <span className="text-label-mono font-label-mono text-ink">07</span>
                 </div>
                 <p className="text-body-md font-body-md text-ink max-w-md">Analytics, Tracking, Web &amp; Technology infrastructure.</p>
@@ -221,9 +224,9 @@ export default function ServicesPage() {
             <h2 className="text-display-xl-mobile md:text-headline-lg font-display-xl-mobile md:font-headline-lg uppercase mb-8 md:mb-12">
               Let's Build a Digital Strategy That Works for Your Business
             </h2>
-            <Link href="/contact" className="bg-ink text-surface-container-lowest hover:bg-transparent hover:text-ink transition-colors duration-300 text-body-lg md:text-headline-md font-body-lg md:font-headline-md uppercase py-4 md:py-6 px-8 md:px-12 border-4 border-ink hover:scale-95 transform inline-flex items-center gap-3 md:gap-4">
+            <Link href="/contact" className="bg-tangerine text-ink border-4 border-ink px-8 py-4 text-headline-md font-headline-md font-black uppercase brutalist-shadow hover:bg-ink hover:text-surface-container-lowest transition-all duration-300 inline-flex items-center gap-3">
               Request a Free Audit
-              <span className="material-symbols-outlined text-[28px] md:text-[40px]">arrow_forward</span>
+              <span className="material-symbols-outlined text-[32px]">arrow_forward</span>
             </Link>
           </div>
           <Image unoptimized width={1000} height={1000}             alt="Hand drawn character pointing up"

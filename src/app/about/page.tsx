@@ -74,7 +74,7 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="md:col-span-4 md:col-start-8 relative mt-8 md:mt-0 reveal-on-scroll" style={{ transitionDelay: "0.2s" }}>
-              <div className="hand-drawn-border p-6 md:p-8 bg-white relative z-10 h-full flex flex-col justify-center">
+              <div className="hand-drawn-border bg-surface-container-lowest p-8 brutalist-shadow relative z-10 h-full flex flex-col justify-center">
                 <h3 className="font-headline-md text-headline-md mb-3 md:mb-4 uppercase">The Spark</h3>
                 <p className="font-body-md text-body-md">We didn't start in a boardroom. We started with a whiteboard, too much coffee, and a belief that agencies could do better.</p>
               </div>
@@ -115,34 +115,34 @@ export default function AboutPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-y-24 gap-x-gutter">
             {/* Value 1 */}
-            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start group">
-              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50 group-hover:opacity-100 transition-opacity">01</div>
-              <div>
-                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4 group-hover:pl-4 transition-all duration-300">Transparency</h3>
-                <p className="font-body-md text-body-md border-l-2 border-ink pl-4 py-2">We share the wins and the losses. Honest communication builds strong partnerships.</p>
+            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50">01</div>
+              <div className="bg-surface-container-lowest border-2 border-ink p-6 flex-1">
+                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4">Transparency</h3>
+                <p className="text-body-md md:text-body-lg font-body-md md:font-body-lg font-medium">We share everything. The good, the bad, and the work in progress. No black-box strategies, no hidden markups.</p>
               </div>
             </div>
             {/* Value 2 */}
-            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start group mt-0 md:mt-32">
-              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50 group-hover:opacity-100 transition-opacity">02</div>
-              <div>
-                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4 group-hover:pl-4 transition-all duration-300">Ownership</h3>
-                <p className="font-body-md text-body-md border-l-2 border-ink pl-4 py-2">We treat your budget like it's our own. Every decision is made with an owner's mindset.</p>
+            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start mt-0 md:mt-32">
+              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50">02</div>
+              <div className="bg-surface-container-lowest border-2 border-ink p-6 flex-1">
+                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4">Ownership</h3>
+                <p className="text-body-md md:text-body-lg font-body-md md:font-body-lg font-medium">Your targets become our targets. We do not just execute tasks; we take responsibility for the outcomes.</p>
               </div>
             </div>
             {/* Value 3 */}
-            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start group">
-              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50 group-hover:opacity-100 transition-opacity">03</div>
-              <div>
-                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4 group-hover:pl-4 transition-all duration-300">Expertise</h3>
-                <p className="font-body-md text-body-md border-l-2 border-ink pl-4 py-2">We stay ahead of the curve so you don't have to. Mastery of our craft is non-negotiable.</p>
+            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start">
+              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50">03</div>
+              <div className="bg-surface-container-lowest border-2 border-ink p-6 flex-1">
+                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4">Expertise</h3>
+                <p className="text-body-md md:text-body-lg font-body-md md:font-body-lg font-medium">We believe in doing a few things exceptionally well. Our team consists of specialists, not generalists.</p>
               </div>
             </div>
             {/* Value 4 */}
-            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start group mt-0 md:mt-32">
-              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50 group-hover:opacity-100 transition-opacity">04</div>
-              <div>
-                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4 group-hover:pl-4 transition-all duration-300">Long-Term Thinking</h3>
+            <div className="relative reveal-on-scroll flex flex-col md:flex-row gap-6 md:gap-8 items-start mt-0 md:mt-32">
+              <div className="font-display-xl text-[60px] md:text-display-xl text-tangerine leading-none opacity-50">04</div>
+              <div className="bg-surface-container-lowest border-2 border-ink p-6 flex-1">
+                <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase mb-3 md:mb-4">Long-Term Thinking</h3>
                 <p className="font-body-md text-body-md border-l-2 border-ink pl-4 py-2">We don't do quick fixes. We build sustainable strategies that pay off for years to come.</p>
               </div>
             </div>
@@ -162,8 +162,8 @@ export default function AboutPage() {
             {/* Aman */}
             <div className="md:col-span-5 md:col-start-1 relative reveal-on-scroll">
               <div className="bg-tangerine w-full aspect-[3/4] hand-drawn-border absolute top-4 left-4 z-0"></div>
-              <div className="bg-white w-full aspect-[3/4] border-2 border-ink relative z-10 flex flex-col justify-end p-6 md:p-8 group">
-                <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-500 opacity-80" data-alt="A professional headshot of a confident male executive in a modern, well-lit studio environment."></div>
+              <div className="bg-surface-container-lowest w-full aspect-[3/4] border-4 border-ink brutalist-shadow relative z-10 flex flex-col justify-end p-8 group">
+                <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center grayscale opacity-80" data-alt="A professional headshot of a confident male executive in a modern, well-lit studio environment."></div>
                 <div className="relative z-20 bg-white/90 backdrop-blur-sm p-3 md:p-4 border-2 border-ink inline-block transform -translate-x-6 md:-translate-x-12 translate-y-8 md:translate-y-12">
                   <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase m-0">Aman Shrivas</h3>
                   <p className="font-label-mono text-label-mono text-tangerine uppercase font-bold">Founder &amp; CEO</p>
@@ -181,8 +181,8 @@ export default function AboutPage() {
             {/* Akansha */}
             <div className="md:col-span-5 relative mt-16 md:mt-0 reveal-on-scroll" style={{ transitionDelay: "0.2s" }}>
               <div className="bg-ink w-full aspect-[3/4] absolute top-4 -right-4 z-0 rounded-tl-3xl rounded-br-3xl"></div>
-              <div className="bg-white w-full aspect-[3/4] border-2 border-ink relative z-10 flex flex-col justify-start p-6 md:p-8 group rounded-tl-3xl rounded-br-3xl">
-                <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center grayscale group-hover:grayscale-0 transition-all duration-500 opacity-80 rounded-tl-3xl rounded-br-3xl" data-alt="A professional headshot of a dynamic female executive in a bright, modern office space."></div>
+              <div className="bg-surface-container-lowest w-full aspect-[3/4] border-4 border-ink brutalist-shadow relative z-10 flex flex-col justify-start p-8 group rounded-tl-3xl rounded-br-3xl">
+                <div className="absolute top-0 left-0 w-full h-full bg-[url('https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1000&auto=format&fit=crop')] bg-cover bg-center grayscale opacity-80 rounded-tl-3xl rounded-br-3xl" data-alt="A professional headshot of a dynamic female executive in a bright, modern office space."></div>
                 <div className="relative z-20 bg-white/90 backdrop-blur-sm p-3 md:p-4 border-2 border-ink inline-block transform translate-x-6 md:translate-x-12 -translate-y-8 md:-translate-y-12 self-end">
                   <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase m-0">Akansha Shrivastava</h3>
                   <p className="font-label-mono text-label-mono text-tangerine uppercase font-bold">Head of Recruitment</p>
@@ -200,10 +200,10 @@ export default function AboutPage() {
           <div className="border-y-4 border-ink py-8 md:py-12 reveal-on-scroll">
             <h3 className="font-headline-md text-[24px] md:text-headline-md uppercase text-center mb-8 md:mb-12">Trusted &amp; Certified By</h3>
             <div className="flex flex-wrap justify-center gap-4 md:gap-8 lg:gap-16 items-center">
-              <span className="font-label-mono text-label-mono uppercase px-4 md:px-6 py-2 border-2 border-ink rounded-full hover:bg-tangerine hover:text-ink transition-colors cursor-default text-[10px] md:text-[12px]">Google Partner</span>
-              <span className="font-label-mono text-label-mono uppercase px-4 md:px-6 py-2 border-2 border-ink rounded-full hover:bg-tangerine hover:text-ink transition-colors cursor-default text-[10px] md:text-[12px]">Meta Business Partner</span>
-              <span className="font-label-mono text-label-mono uppercase px-4 md:px-6 py-2 border-2 border-ink rounded-full hover:bg-tangerine hover:text-ink transition-colors cursor-default text-[10px] md:text-[12px]">LinkedIn Marketing Solutions</span>
-              <span className="font-label-mono text-label-mono uppercase px-4 md:px-6 py-2 border-2 border-ink rounded-full hover:bg-tangerine hover:text-ink transition-colors cursor-default text-[10px] md:text-[12px]">Snapchat Ads Manager Certified</span>
+              <span className="bg-surface-container-lowest border-2 border-ink px-6 py-2 rounded-full text-label-mono font-label-mono uppercase font-bold cursor-default">Google Partner</span>
+              <span className="bg-surface-container-lowest border-2 border-ink px-6 py-2 rounded-full text-label-mono font-label-mono uppercase font-bold cursor-default">Meta Business Partner</span>
+              <span className="bg-surface-container-lowest border-2 border-ink px-6 py-2 rounded-full text-label-mono font-label-mono uppercase font-bold cursor-default">LinkedIn Marketing Solutions</span>
+              <span className="bg-surface-container-lowest border-2 border-ink px-6 py-2 rounded-full text-label-mono font-label-mono uppercase font-bold cursor-default">Snapchat Ads Manager Certified</span>
             </div>
           </div>
         </section>

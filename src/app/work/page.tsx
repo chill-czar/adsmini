@@ -38,32 +38,38 @@ export default function WorkPage() {
                 <span className="text-outline">Intent</span>
               </h2>
               <ul className="space-y-3 md:space-y-4 font-headline-md text-[20px] md:text-headline-md text-ink">
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
-                  Tresmode <span className="text-sm font-label-mono opacity-0 group-hover:opacity-100 transition-opacity">Footwear</span>
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Tresmode <span className="text-sm font-label-mono">Footwear</span>
                 </li>
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
-                  Isha Life <span className="text-sm font-label-mono opacity-0 group-hover:opacity-100 transition-opacity">Fashion</span>
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Isha Life <span className="text-sm font-label-mono">Fashion</span>
                 </li>
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
-                  Neera <span className="text-sm font-label-mono opacity-0 group-hover:opacity-100 transition-opacity">E-Commerce</span>
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Neera <span className="text-sm font-label-mono">E-Commerce</span>
                 </li>
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
-                  Renew Drycleaners <span className="text-sm font-label-mono opacity-0 group-hover:opacity-100 transition-opacity">UK</span>
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Renew Drycleaners <span className="text-sm font-label-mono">UK</span>
                 </li>
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
-                  Tech Fynder
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Evolvr
                 </li>
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Vidyayan Educational Foundation
+                </li>
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
+                  Aliaa Interiors
+                </li>
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
                   Moon Tours
                 </li>
-                <li className="kinetic-border-b pb-2 hover:text-tangerine transition-colors flex justify-between group cursor-pointer">
+                <li className="border-b-2 border-ink py-3 flex justify-between items-center">
                   Chalbo India
                 </li>
               </ul>
             </div>
             <div className="col-span-12 md:col-span-6 md:col-start-7 mt-12 md:mt-0 relative flex justify-center">
               {/* Massive stat visual */}
-              <div className="relative w-full max-w-[280px] md:max-w-md aspect-square bg-ink text-paper rounded-full flex flex-col items-center justify-center p-6 md:p-8 transform rotate-0 md:rotate-3 hover:rotate-0 transition-transform duration-500 shadow-[8px_8px_0px_0px_#FA9948] md:shadow-[16px_16px_0px_0px_#FA9948]">
+              <div className="relative w-full max-w-[280px] md:max-w-md aspect-square bg-ink text-surface-container-lowest rounded-full flex flex-col items-center justify-center p-8 transform rotate-0 md:rotate-3 shadow-[12px_12px_0px_0px_#FA9948] text-center">
                 <p className="font-label-mono text-label-mono uppercase tracking-widest text-tangerine mb-2 md:mb-4">Avg. ROAS</p>
                 <p className="font-display-xl text-[60px] md:text-display-xl leading-none">10.2x</p>
               </div>
@@ -98,31 +104,31 @@ export default function WorkPage() {
               </div>
               <div className="col-span-12 md:col-span-7">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-8 md:gap-y-12 font-body-md md:font-body-lg">
-                  <div className="border-t-2 border-paper pt-3 md:pt-4">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">Sizzle</h3>
                     <p className="font-label-mono text-label-mono text-secondary">F&amp;B</p>
                   </div>
-                  <div className="border-t-2 border-paper pt-3 md:pt-4">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">The Digital Bundle</h3>
                     <p className="font-label-mono text-label-mono text-secondary">Agency</p>
                   </div>
-                  <div className="border-t-2 border-paper pt-3 md:pt-4">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">Okapi</h3>
                     <p className="font-label-mono text-label-mono text-secondary">E-Commerce</p>
                   </div>
-                  <div className="border-t-2 border-paper pt-3 md:pt-4">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">GT Groups</h3>
                     <p className="font-label-mono text-label-mono text-secondary">Real Estate</p>
                   </div>
-                  <div className="border-t-2 border-paper pt-3 md:pt-4">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">Catchy Trade</h3>
                     <p className="font-label-mono text-label-mono text-secondary">Finance</p>
                   </div>
-                  <div className="border-t-2 border-paper pt-3 md:pt-4">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">Stabo Life</h3>
                     <p className="font-label-mono text-label-mono text-secondary">Health</p>
                   </div>
-                  <div className="border-t-2 border-paper pt-3 md:pt-4 md:col-span-2">
+                  <div className="bg-transparent border-t-2 border-paper pt-4 px-2 pb-2 md:col-span-2">
                     <h3 className="font-headline-md text-[20px] md:text-headline-md uppercase mb-2">S&amp;A Renovation</h3>
                     <p className="font-label-mono text-label-mono text-secondary">Canada</p>
                   </div>
